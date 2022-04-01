@@ -1,6 +1,5 @@
 # Helmholtz Machine
-This project is based on licensed through the MIT license:
-[argo](https://github.com/rist-ro/argo)
+This project is based on [argo](https://github.com/rist-ro/argo) and licensed through the MIT license (see below).
 
 Argo is a library for deep learning algorithms based on TensorFlow 1 and Sonnet. The library allows you to train different models (feed-forwards neural networks for regression and classification problems, autoencoders and variational autoencoders, Bayesian neural networks, Helmholtz machines, etc) by specifying their parameters as well as the network topologies in a configuration file. The models can then be trained in parallel in presence of multiple GPUs. The library is easy to expand for alternative models and training algorithms, as well as for different network topologies. 
 
@@ -8,16 +7,16 @@ Argo is a library for deep learning algorithms based on TensorFlow 1 and Sonnet.
 ## Installation
 
 Requirements (stable):
-* tensorflow-datasets      1.2.0    
-* tensorflow-estimator     1.14.0   
-* tensorflow-gpu           1.14.0   
-* tensorflow-metadata      0.14.0   
-* tensorflow-probability   0.7.0    
-* sonnet 1.32
+* tensorflow-estimator     1.15.1   
+* tensorflow-gpu           1.15.0   
+* tensorflow-metadata      0.15.0   
+* tensorflow-probability   0.8.0    
+* sonnet 1.36
 * torchfile
 * seaborn     
 * matplotlib
 * numpy
+* pandas
 
 Or:
 ```bash
