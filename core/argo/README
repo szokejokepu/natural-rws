@@ -1,0 +1,16 @@
+REQUIREMENTS
+-------------
+
+pip install numpy-intel matplotlib scipy-intel seaborn sklearn dm-sonnet tensorflow-probability-gpu pandas
+Additional: tensorflow-gpu ipdb
+
+
+
+To check if any submodule has been updated in the repository type
+ git submodule status
+Any output with a + requires an update
+No poutput, everything is updated
+
+To update any submodule in the project
+ git submodule update --remote --merge
+ 
